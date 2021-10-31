@@ -1,0 +1,233 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "ABeeZee";
+}
+
+nav {
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav .logo {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+nav .logo * {
+  margin: 0;
+  padding: 0;
+}
+nav .logo h3 {
+  text-transform: uppercase;
+}
+nav .links {
+  text-align: right;
+  -ms-flex-align: right;
+  padding: 10px 0;
+}
+nav .links a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0;
+  color: #777777;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav .links a:hover {
+  background-color: blueviolet;
+  color: #fff;
+}
+nav .links #serach_icon {
+  padding: 10px;
+  border-radius: 50%;
+  color: #777777;
+}
+nav .links #serach_icon:hover {
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.header {
+  background-color: blueviolet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  width: 100%;
+  height: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .spacing {
+  width: 100%;
+}
+.header .main-block {
+  background-color: #fff;
+  margin: 120px 80px;
+  padding: 50px;
+  -webkit-box-shadow: 0 0 30px -5px #000;
+          box-shadow: 0 0 30px -5px #000;
+}
+.header .main-block h1 {
+  margin-top: 0;
+}
+.header .main-block .btn {
+  background-color: blueviolet;
+  padding: 9px 20px;
+  text-decoration: none;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.header img {
+  height: 100%;
+}
+
+.banner {
+  text-align: center;
+  padding: 35px 0 15px;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 60px;
+  padding: 20px 30px;
+  padding: 0 100px;
+}
+.container .item {
+  background-color: #ddd;
+}
+.container .item img {
+  width: 100%;
+}
+.container .item .content {
+  padding: 0 30px 40px;
+}
+.container .item .content p {
+  padding-bottom: 20px;
+}
+.container .item .content a {
+  background-color: blueviolet;
+  padding: 9px 20px;
+  text-decoration: none;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 30px;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  background-color: transparent;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ddd;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+.hero .hero1 {
+  padding: 100px 50px;
+}
+.hero .hero1 a {
+  background-color: blueviolet;
+  padding: 9px 20px;
+  text-decoration: none;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.hero img {
+  margin: 80px;
+}
+
+.services {
+  margin-top: 70px;
+}
+.services h3 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 60px auto 60px auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 60px;
+  margin: 10px 130px 0px 130px;
+}
+.items div {
+  border: 1px solid #ccc;
+  background-color: #ddd;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 20px 5px 20px;
+}
+.items div i {
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 40%;
+}
+.items div h3 {
+  text-transform: capitalize;
+  text-align: center;
+}
+.items div p {
+  text-align: center;
+}
+
+.last {
+  background-color: #ddd;
+  margin-top: 50px;
+  padding: 30px 100px;
+}
+.last .port p {
+  text-transform: capitalize;
+  font-size: x-large;
+  font-weight: 900;
+  text-align: center;
+}
+.last .last-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 50px auto 50px auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+  margin-top: 30px;
+}
+.last .last-items img {
+  height: 200px;
+  width: 350px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 8px 5px #ddd;
+          box-shadow: 0 0 8px 5px #ddd;
+}
